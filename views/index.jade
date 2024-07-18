@@ -1,32 +1,35 @@
 include ./partials/header.jade
 
-<div class="w-full h-screen bg-zinc-300 flex items-center justify-center ">
-<div class ="w-[28vw] h-[72vh] bg-white px-20 py-10 rounded-3xl">
+<div class="w-full h-screen bg-zinc-400 flex items-center justify-center ">
+<div class ="w-[28vw] h-[86vh] bg-white px-20 py-10 rounded-3xl">
 <h1 class="text-2xl text-center font-semibold text-zinc-700 leading-none tracking-tight capitalize">Welcome to Pinterest</h1><br>
 
-<form action="">
-<label for="Eamil">Email address</label>
-<input class="border-2 rounded-2xl block w-full px-2 py-2" type="text" name ="Email" placeholder="Email">
+<form action="/login" method="post">
+<label for="Eamil">Username</label>
+<input class="border-2 rounded-2xl block w-full px-2 py-2" type="text" name ="username" placeholder="username">
 <label for="password">Password</label>
 <input class="border-2 rounded-2xl block w-full px-3 py-2 " type="password" name ="password" placeholder="Password">
 <a class="font-semibold text-zinc-700 inline-block" href="#">Forgot password ?</a>
 <button class="mt-2 border-2 w-full height -5px px-3 py-2 bg-red-600 text-white rounded-full" type="submit" class="login-btn">Log in</button><br>
-<p class="text-center">  or </p>
+<p class="text-center">  OR </p>
+
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
-<p class="text-xs font-semibold text-zinc-700 mt-2 w-3/2 text-center">By continuing, you agree to Pinterest's</p>
+<p class="text-xs font-semibold text-zinc-700 mt-4 w-3/2 text-center">By continuing, you agree to Pinterest's</p>
 <div class="container">
 <span class="text-xs font-bold text-black flex-grow-1">Terms of Service</span>
 <span class="text-xs font-semibold text-zinc-700 flex-grow-1 text-center">and acknowledge you've read our</span>
 </div>
 <p class="text-xs font-bold text-black w2/3 text-center">Privacy Policy. Notice all collection.</p>
-<p class="text-xs font-semibold text-zinc-700 text-center">Already a member? Log in</p>
-
 </form> 
+<a class="inline-block text-xs font-semibold text-black mt-4 text-center w-full"  href="/register">Don't have an account? Create new account</a>
 </div>
 </div>
 
-include ./partials/footer.jade
- 
- 
- //--------------20 min-------------------
+include ./partials/footer.jade 
+
+
+
+
+
+//-  45 min
