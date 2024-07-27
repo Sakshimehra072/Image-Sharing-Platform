@@ -8,18 +8,13 @@ const storage = multer.diskStorage({
       cb(null, './public/images/uploads')
     },
     filename: function (req, file, cb) {
-    //   const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
     const unique = uuidv4();
-      cb(null, unique + path.extname(file.originalname))
+      cb(null, unique + path.extname(file.originalname));
     }
   })
   
   const upload = multer({ storage: storage })
 
   module.exports = upload;  
-
-
-
-
 
 

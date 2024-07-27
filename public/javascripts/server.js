@@ -1,4 +1,4 @@
-// // Google API(client- secret)
+// Google API(client- secret)
 
 require('dotenv').config();
 
@@ -9,3 +9,6 @@ const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET;
 console.log(`Google Client ID: ${googleClientId}`);
 console.log(`Google Client Secret: ${googleClientSecret}`);
 // console.log(`Redirect URI: ${redirectUri}`);
+
+
+
