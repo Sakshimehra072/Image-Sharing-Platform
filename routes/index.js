@@ -26,7 +26,7 @@ router.get('/profile', isLoggedIn, async function(req, res, next) {
    .populate("posts");
    console.log(user);
   res.render("profile", {user, nav: true});
-}); 
+});  
 
 /*UPLOAD POST*/
 

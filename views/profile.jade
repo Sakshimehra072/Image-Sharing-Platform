@@ -24,25 +24,21 @@ include ./partials/header.jade
 
 </div>
 <div class="cards flex flex-wrap gap-10 px-10 mt-5">
-
-<div class="card">  
-
+<div class="card"> 
 <div class="w-40 h-60 bg-zinc-600 rounded-lg overflow-hidden">
-//- <img class="w-full h-full object-cover" src="/images/uploads/{user?.posts[0]?.image }" alt=" ">
-<img class="w-full h-full object-cover" src="https://w0.peakpx.com/wallpaper/142/281/HD-wallpaper-shiva-universe-shiva-universe-hindu-bhakti-devotional-god-thumbnail.jpg" alt=" ">
+
+img.w-full.h-full.object-cover(src=`/images/uploads/${user?.posts[0]?.image}`)
+
 </div>
-<h3 class="text-xl font-semibold mt-5">your uploaded Pins</h3>
-<h5 class="text-sm font-medium opacity-60">Pins</h5>
-//- <h5 class="text-sm font-medium opacity-60" user.posts.length>Pins</h5>
+<h3 class="text-xl font-semibold mt-5">your uploaded Pins</h3> 
+<h5 class="text-sm font-medium opacity-60">#{user.posts.length} pins</h5>
 </div>
 
 <div class="card">
-<div class="w-40 h-60 bg-zinc-600 rounded-lg"></div>
-<h3 class="text-xl font-semibold mt-5">All Pins</h3>
-<h5 class="text-sm font-medium opacity-60">28 pins</h5>
+
+
 </div>
-</div>
-</div>
+</div> 
 
 script.
   document.querySelector("#uploadicon").addEventListener("click", function() {
