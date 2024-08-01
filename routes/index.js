@@ -28,6 +28,26 @@ router.get('/profile', isLoggedIn, async function(req, res, next) {
   res.render("profile", {user, nav: true});
 });  
 
+/*SHOW POSTS*/
+
+router.get('/show/posts', isLoggedIn, async function(req, res, next) {
+  const user =
+   await userModel
+   .findOne({username: req.session.passport.user})
+   .populate("posts");
+  //  console.log(user);
+  res.render("show", {user, nav: true});
+});  
+
+/*FEED*/
+
+router.get('/feed', isLoggedIn, async function(req, res, next) {
+  const user = await userModel.findOne({username: req.session.passport.user})
+  const posts = await postModel.find()
+  .populate("user")
+  res.render("feed", {user, posts, nav: true});
+});  
+ 
 /*UPLOAD POST*/
 
 router.get('/add', isLoggedIn, async function(req, res, next) {
@@ -65,6 +85,7 @@ const data = new userModel({
   username : req.body.username,
   email : req.body.Email,
   contact : req.body.contact,
+  name: req.body.username
 })
 
 userModel.register(data, req.body.password)

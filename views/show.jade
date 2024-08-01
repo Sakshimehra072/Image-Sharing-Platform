@@ -1,0 +1,17 @@
+include ./partials/header.jade
+div.w-full.min-h-screen.bg-zinc-800.px-10.py-8.text-white
+  .cards.flex.flex-wrap.gap-10
+    each elem in user.posts
+      .card.w-32.h-50
+        .w-full.h-40.bg-sky-200.rounded-lg.overflow-hidden
+          img(class ="w-full h-full object-cover", src=`/images/uploads/${elem.image}`)
+        h5.mt-2.text-sm bgfvfjgnejhgerjfvnm, vkfhgiuerhnvjnkner
+include ./partials/footer.jade
+
+
+
+
+
+
+
+
