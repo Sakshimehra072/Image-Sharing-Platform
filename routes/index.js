@@ -49,7 +49,6 @@ router.get('/feed', isLoggedIn, async function(req, res, next) {
 });  
  
 /*UPLOAD POST*/
-
 router.get('/add', isLoggedIn, async function(req, res, next) {
   const user = await userModel.findOne({username: req.session.passport.user});
   res.render("add", {user, nav: true});
