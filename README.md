@@ -21,9 +21,7 @@ This is a full-stack web application where users can create accounts, share thei
 # ✨ Features
 - ### User Signup & Login: 
 Secure authentication system that allows users to create an account and log in easily.
-
-![alt text]({346E1CAD-8D08-445B-B157-BBECE38531FC}.png)
-![alt text]({C5575410-F78B-499A-A45F-5AA3B4EE46B9}.png)
+![{B4B0A1D7-BD12-4018-87A5-B29F1BA9AEF8}](https://github.com/user-attachments/assets/601ecaa1-25be-4ca0-a62d-cfee23cfbf50)
 
 - ### Profile Creation & Management: 
 After signing up, users can set up their profile, including updating their profile picture at any time.
