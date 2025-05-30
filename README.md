@@ -21,12 +21,11 @@ This is a full-stack web application where users can create accounts, share thei
 # ✨ Features
 - ### User Signup & Login: 
 Secure authentication system that allows users to create an account and log in easily.
-![{B4B0A1D7-BD12-4018-87A5-B29F1BA9AEF8}](https://github.com/user-attachments/assets/601ecaa1-25be-4ca0-a62d-cfee23cfbf50)
+![{B4B0A1D7-BD12-4018-87A5-B29F1BA9AEF8}](https://github.com/user-attachments/assets/601ecaa1-25be-4ca0-a62d-cfee23cfbf50)  ![{D189665E-EA73-4B03-A565-BC4CCE80C1AE}](https://github.com/user-attachments/assets/240ef14b-01cc-4994-978a-028504ece906)
 
 - ### Profile Creation & Management: 
 After signing up, users can set up their profile, including updating their profile picture at any time.
-![image](https://github.com/user-attachments/assets/4dfceb7c-d31b-455a-bb00-129db25258a2)
-
+![image](https://github.com/user-attachments/assets/4dfceb7c-d31b-455a-bb00-129db25258a2)  
 
 By Clicking on pencil icon user can select image from local storage. 
 ![{43D31A06-7E57-43E5-BE22-0D8BC984D9F0}](https://github.com/user-attachments/assets/2ac05ad6-4ead-4c25-96dc-d70fd298c511)
@@ -37,26 +36,20 @@ Profile Photo updated Successfully.
 Users can upload images, write captions, and add detailed descriptions to their posts.
 by Clicking on this "Add New Post" button user you can upload any post (image) from local Storage.
 ![{0CF3A8AF-85C1-4408-B354-C312A7FD0095}](https://github.com/user-attachments/assets/7044e9f9-8931-45c3-8e70-11d0bcef55d1)
-
 Adding post with a Caption and a Description(optional)
-
 ![{5D857AAA-C716-41EB-9302-474AB5F7DC12}](https://github.com/user-attachments/assets/55d14d14-baef-4163-bdeb-31ab6ecf3084)
-All uploaded posts from your id: 
-
+All uploaded posts from your id/Account: 
 ![{E3A2A7C5-D422-4E5E-8708-ED0A4E2EEECB}](https://github.com/user-attachments/assets/7942d715-261b-408b-83ef-4c2bcdd7fb02)
 
 - ### Explore Posts: 
 All users can scroll through and view images shared by others, creating a social, visual experience.
 Go to "Feed" to view all Posts from other users.
 ![{B33F0FB5-8AF2-4EFA-9286-4B1E23443C56}](https://github.com/user-attachments/assets/03a0dfda-71e6-49f9-a11a-1a2a9e472884)
-
 Your Feed with user name and caption
 ![{5514BA35-F96B-4915-A353-FAF4D9562BC2}](https://github.com/user-attachments/assets/08c68733-382a-4f24-810d-63695028b4af)
 
-
 - ### Fixed Navbar: 
 A clean and responsive navigation bar stays fixed at the top, giving quick access to the Profile and Logout options.
-
 ![{BB103B47-76F1-440E-A427-DE9DF7949BC4}](https://github.com/user-attachments/assets/cd1e030a-d1fb-4897-86d7-87df9908b573)
 
 # Getting Started
