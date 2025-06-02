@@ -32,12 +32,14 @@ After signing up, users can set up their profile, including updating their profi
 By Clicking on pencil icon user can select image from local storage. 
 ![{43D31A06-7E57-43E5-BE22-0D8BC984D9F0}](https://github.com/user-attachments/assets/2ac05ad6-4ead-4c25-96dc-d70fd298c511)
 ![{BBABBF90-88FF-4490-9B9E-0F549C8AE259}](https://github.com/user-attachments/assets/476a370a-f04e-4e74-9a5a-73790cdc76b4)
+
 Profile Photo updated Successfully.
 
 - ### Post Uploading: 
 Users can upload images, write captions, and add detailed descriptions to their posts.
 by Clicking on this "Add New Post" button user you can upload any post (image) from local Storage.
 ![{0CF3A8AF-85C1-4408-B354-C312A7FD0095}](https://github.com/user-attachments/assets/7044e9f9-8931-45c3-8e70-11d0bcef55d1)
+
 Adding post with a Caption and a Description(optional)
 ![{5D857AAA-C716-41EB-9302-474AB5F7DC12}](https://github.com/user-attachments/assets/55d14d14-baef-4163-bdeb-31ab6ecf3084)
 All uploaded posts from your id/Account: 
@@ -47,6 +49,7 @@ All uploaded posts from your id/Account:
 All users can scroll through and view images shared by others, creating a social, visual experience.
 Go to "Feed" to view all Posts from other users.
 ![{B33F0FB5-8AF2-4EFA-9286-4B1E23443C56}](https://github.com/user-attachments/assets/03a0dfda-71e6-49f9-a11a-1a2a9e472884)
+
 Your Feed with user name and caption
 ![{5514BA35-F96B-4915-A353-FAF4D9562BC2}](https://github.com/user-attachments/assets/08c68733-382a-4f24-810d-63695028b4af)
 
