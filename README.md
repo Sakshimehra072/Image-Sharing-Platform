@@ -41,13 +41,17 @@ by Clicking on this "Add New Post" button user you can upload any post (image) f
 ![{0CF3A8AF-85C1-4408-B354-C312A7FD0095}](https://github.com/user-attachments/assets/7044e9f9-8931-45c3-8e70-11d0bcef55d1)
 
 Adding post with a Caption and a Description(optional)
+
 ![{5D857AAA-C716-41EB-9302-474AB5F7DC12}](https://github.com/user-attachments/assets/55d14d14-baef-4163-bdeb-31ab6ecf3084)
+
 All uploaded posts from your id/Account: 
+
 ![{E3A2A7C5-D422-4E5E-8708-ED0A4E2EEECB}](https://github.com/user-attachments/assets/7942d715-261b-408b-83ef-4c2bcdd7fb02)
 
 - ### Explore Posts: 
 All users can scroll through and view images shared by others, creating a social, visual experience.
 Go to "Feed" to view all Posts from other users.
+
 ![{B33F0FB5-8AF2-4EFA-9286-4B1E23443C56}](https://github.com/user-attachments/assets/03a0dfda-71e6-49f9-a11a-1a2a9e472884)
 
 Your Feed with user name and caption
